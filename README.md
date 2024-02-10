@@ -1,9 +1,49 @@
-# React + Vite
+## Pokemon Kart Oyunu Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Bu proje, React kullanarak geliştirilen basit bir Pokemon kart oyunu uygulamasını içerir. Uygulama, temel React bileşenlerini kullanarak Pokemon kartlarını gösterir ve rastgele seçilmiş iki oyuncunun karşılaştığı bir oyun turunu simüle eder.
 
-Currently, two official plugins are available:
+# Nasıl Çalışır?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# PokeCard-react_Project
+-Uygulamayı başlatmak için öncelikle proje dosyalarını indirin veya klonlayın.
+
+- Terminali açın ve proje dizinine gidin.
+
+- Terminalde npm install komutunu çalıştırarak gerekli bağımlılıkları yükleyin.
+
+- Ardından npm start komutunu kullanarak uygulamayı başlatın.
+
+- Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görüntüleyebilirsiniz.
+
+# Proje Yapısı
+
+- Pokecard Component: Her bir Pokemon kartını temsil eder. Kartın adı, tipi ve deneyim puanı gibi verileri gösterir.
+
+- Pokegame Component: Oyunun bir turunu temsil eder. Bu bileşen, rastgele seçilmiş iki oyuncunun kartlarını içeren iki Pokedex bileşenini oluşturur.
+
+- Pokedex Component: Oyuncunun sahip olduğu Pokemon kartlarını temsil eder. Toplam deneyim puanını gösterir ve kazanan veya kaybeden oyuncuyu belirtir.
+
+# Teknolojiler
+
+- React
+
+- JavaScript
+
+- CSS
+
+# Kurulum
+
+- Proje dizinine gidin.
+- Terminalde npm install komutunu çalıştırarak gerekli bağımlılıkları yükleyin.
+- npm start komutunu kullanarak uygulamayı başlatın.
+
+# Katkıda Bulunma
+
+- Bu depoyu (fork) kopyalayın.
+- Yeni bir dal (branch) oluşturun: git checkout -b feature/my-feature.
+- Değişikliklerinizi kaydedin: git commit -am 'Add some feature'.
+- Dalınıza yükleyin: git push origin feature/my-feature.
+- Bir birleştirme isteği (Pull Request) gönderin.
+
+# Ekran Görüntüsü
+
+![PokeCart_Game_with_React](/poke-cart-game.gif)
